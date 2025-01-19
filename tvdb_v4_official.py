@@ -197,6 +197,7 @@ class TVDB:
         self,
         id: int,
         season_type: str = "default",
+        season: int = 1,
         page: int = 0,
         lang: str = None,
         meta=None,
